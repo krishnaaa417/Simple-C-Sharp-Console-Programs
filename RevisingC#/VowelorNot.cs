@@ -10,7 +10,9 @@ namespace RevisingC_
     {
         static void Main(string[] args)
         {
-            VowelOrNot();
+            //VowelOrNot();
+            SWitchCOndition();
+
         }
 
         static void VowelOrNot()
@@ -29,6 +31,35 @@ namespace RevisingC_
             {
 
                 Console.WriteLine("It's a consonant.."+c);
+            }
+        }
+
+        static void SWitchCOndition()
+        {
+            Console.WriteLine("please enter a character");
+            char ch = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+
+            switch (ch)
+            {
+                case 'a':
+                    Console.WriteLine("its vowel");
+                    break;
+                    case 'e':
+                    Console.WriteLine("it's vowel");
+                    break;
+                    case 'i':
+                    Console.WriteLine("It's vowel");
+                    break;
+                    case 'o':
+                    Console.WriteLine("It's vowel");
+                    break;
+                case 'u':
+                    Console.WriteLine("It's vowel");
+                    break;
+                default:
+                    Console.WriteLine("It's constant");
+                    break;
             }
         }
     }
