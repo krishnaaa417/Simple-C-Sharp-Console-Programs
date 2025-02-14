@@ -6,7 +6,11 @@
     <RootNamespace>RevisingC_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>RevisingC_.Ifstatements</StartupObject>
+    <StartupObject>RevisingC_.BasicStringOperations</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RevisingC#2\RevisingC#2.csproj" />
+  </ItemGroup>
 
 </Project>

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisingC#", "RevisingC#\RevisingC#.csproj", "{D2CBF5D2-EEC4-4174-AF8E-53356558AC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisingC#2", "RevisingC#2\RevisingC#2.csproj", "{074FA02F-6077-4C13-A6E1-17510E601CCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D2CBF5D2-EEC4-4174-AF8E-53356558AC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2CBF5D2-EEC4-4174-AF8E-53356558AC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2CBF5D2-EEC4-4174-AF8E-53356558AC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074FA02F-6077-4C13-A6E1-17510E601CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074FA02F-6077-4C13-A6E1-17510E601CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074FA02F-6077-4C13-A6E1-17510E601CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074FA02F-6077-4C13-A6E1-17510E601CCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
