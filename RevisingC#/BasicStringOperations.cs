@@ -18,7 +18,8 @@ namespace RevisingC_
             //string replace = result.Replace("krishna", "venkata");
             //Console.WriteLine(replace);
             //Difference();
-            Strings();
+            //Strings();
+            Dowhile();
         }
 
         public static void Difference()
@@ -36,6 +37,17 @@ namespace RevisingC_
             sb.Append("Interview");
             sb.Append("Preparation");
             Console.WriteLine(sb);
+        }
+
+        public static void Dowhile()
+        {
+            int i = 1;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            while (i < 0);
         }
 
     }
