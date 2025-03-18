@@ -6,8 +6,12 @@
     <RootNamespace>RevisingC_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>RevisingC_.BasicStringOperations</StartupObject>
+    <StartupObject>RevisingC_.ReverseTheNumberInList</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RevisingC#2\RevisingC#2.csproj" />
